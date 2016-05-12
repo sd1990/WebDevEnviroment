@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="vpiaotong-protal-elephant">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <dependent-module archiveName="vpiaotong-pre-elephant-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/vpiaotong-pre-elephant/vpiaotong-pre-elephant">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="vpiaotong-core-elephant-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/vpiaotong-core-elephant/vpiaotong-core-elephant">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="vpiaotong-service-elephant-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/vpiaotong-service-elephant/vpiaotong-service-elephant">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="vpiaotong-core-shiro-elephant-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/vpiaotong-core-shiro-elephant/vpiaotong-core-shiro-elephant">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="vpiaotong-protal-elephant"/>
+        <property name="java-output-path" value="/vpiaotong-protal-elephant/target/classes"/>
+    </wb-module>
+</project-modules>
